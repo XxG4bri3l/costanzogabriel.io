@@ -1,0 +1,80 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@200,300,400,500;0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Neuton&display=swap');
+
+
+.navbar-brand {
+    font-family: 'Neuton', serif;
+    letter-spacing: 3px;
+    word-spacing: 8px;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(33, 36, 39, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+
+    
+.navbar-toggler  { 
+     border: none;  
+    }
+
+.nav-item {
+   margin-left: 40px;
+}
+
+
+
+.navbar .nav-item .nav-link:hover {
+    color: #989898  !important;
+    
+
+}
+
+
+.py-3 {
+    font-family: 'Neuton', serif;
+    font-weight: 600;
+    font-size: 55px;
+    letter-spacing: 3px;
+}
+
+
+
+
+.h3  {
+    padding-top: 15px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: #212427;
+    font-weight: 400;
+    font-size: 1.3rem;
+
+}
+
+.btn-dark:hover {
+    box-shadow: 5px 8px 2px 3px rgba(42, 42, 42, 0.5);
+}
+
+.card-img-top {
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        padding: 5px;
+       
+}
+
+
+
+.btn-dark{
+    border-color: #EEEEEE;
+    border-width: 3px;
+}
+
+  .btn-dark:hover {
+    background-color: #EEEEEE;
+    color: #212427;
+    transition: ease-in 0.3s;
+  }
+
