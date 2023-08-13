@@ -80,37 +80,37 @@
        
     
 <div class="col-md-6">
-    <div class=" card shadow-lg p-3 mb-5" style="border-radius: 20px; background-color: #EEEEEE;">
+    <div class=" card shadow-lg p-3 mb-5" style="border-radius: 20px; background-color: #FFFFFF;">
       <div class="mb-3">
         
-       <h2 style="font-family='inter',sans serif;">Contattami</h2>
+       <h2 style="font-family='inter',sans serif; text-align: center; font-weight: 600; font-size: 1.7rem; padding-bottom: 10px;">Contattami</h2>
        <div class="form-group m-3">
-        <h5 for="name">Nome</h5>
+        <h6 for="name">Nome</h6>
         <input
           type="text"
-          class="form-control"
+          class="form-control shadow p-3 bg-white rounded-3"
           id="name"
           placeholder="Inserisci il tuo nome"
         />
       </div>
-      <div class="form-group m-3">
-        <h5 for="email">Email</h5>
+      <div class="form-group m-3 pt-3">
+        <h6 for="email">Email</h6>
         <input
-          type="email"
-          class="form-control"
+          type="email" 
+          class="form-control shadow p-3 bg-white rounded-3"
           id="email"
-          placeholder="Inserisci la tua email"
-        />
+          placeholder="Inserisci la tua email"/>
       </div>
-      <div class="form-group m-3">
+      <div class="form-group m-3 pt-3">
         <h5 for="message">Messaggio</h5>
-        <textarea class="form-control" id="message" rows="6"></textarea>
+        <textarea class="form-control shadow p-3 bg-white rounded-3" id="message" rows="6" ></textarea>
       </div>
+      <div class="text-center pt-4">
       <button class="btn btn-success" onclick="sendMail()"style="border-radius: 15px; border-width: 3px; font-size: 20px; max-width: 80%; min-width: 60%;"
        data-bs-toggle="modal"
        data-bs-target="#enroll">Invia</button>
     </div>
-  
+</div>
       </div>
       </div>
 
