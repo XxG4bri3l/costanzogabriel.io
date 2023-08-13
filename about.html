@@ -14,6 +14,16 @@
     <title>Chi sono?</title>
     <link rel="icon" href="assets/favicon/favicon-16x16.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/6ed9dad6e0.js" crossorigin="anonymous"></script>
+    <script src="assets/form.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("LVYgCAd3a6fIZBzIg");
+      })();
+    </script>
   
     
   </head>
@@ -70,30 +80,37 @@
        
     
 <div class="col-md-6">
-    <div class=" card shadow-lg p-3 mb-5" style="border-radius: 20px; background-color: #212427;">
+    <div class=" card shadow-lg p-3 mb-5" style="border-radius: 20px; background-color: #EEEEEE;">
       <div class="mb-3">
         
-        <label for="exampleInputEmail1" class="form-label" style="color: #EEEEEE;">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="La tua email" required aria-describedby="emailHelp">
-        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+       <h2 style="font-family='inter',sans serif;">Contattami</h2>
+       <div class="form-group m-3">
+        <h5 for="name">Nome</h5>
+        <input
+          type="text"
+          class="form-control"
+          id="name"
+          placeholder="Inserisci il tuo nome"
+        />
       </div>
-
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label" style="color: #EEEEEE;">Message</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Cosa vuoi farmi sapere?" required style="height: 350px;"></textarea>
-
+      <div class="form-group m-3">
+        <h5 for="email">Email</h5>
+        <input
+          type="email"
+          class="form-control"
+          id="email"
+          placeholder="Inserisci la tua email"
+        />
       </div>
-      <div class="text-center pt-1 pb-3">
-        <button type="button" class="btn btn-outline-light" style="border-radius: 15px; border-width: 3px;"
-        data-bs-toggle="modal"
-        data-bs-target="#enroll"
-        
-        
-      >
-       
-        <a class="text-button" href="about.html" style="text-decoration: none; font-size: 1.5rem; font-family: 'Inter', sans-serif; color: #FFFFFF; font-weight: 500;"> Contattami</a>
-      </button>
+      <div class="form-group m-3">
+        <h5 for="message">Messaggio</h5>
+        <textarea class="form-control" id="message" rows="6"></textarea>
       </div>
+      <button class="btn btn-success" onclick="sendMail()"style="border-radius: 15px; border-width: 3px; font-size: 20px; max-width: 80%; min-width: 60%;"
+       data-bs-toggle="modal"
+       data-bs-target="#enroll">Invia</button>
+    </div>
+  
       </div>
       </div>
 
