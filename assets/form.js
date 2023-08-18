@@ -1,12 +1,20 @@
 function sendMail() {
-    {
-     if (sendMail.value.length == 0)
-      { 
-         alert("message");  	
-         return false; 
-      }  	
-      return true; 
-    } 
+{
+  var val = document.getElementById('{!$Component.RenewalForm.configblock.configsecblock.confignewopp.newopp}').value;
+  var oval = document.getElementById('{!$Component.RenewalForm.configblock.configsecblock.configopport.existopp}').value;
+   if ( val == '' && oval == '') {
+    alert('Enter Opportunity Details');
+    return false;
+    }
+    else if ( val != '' && oval != '') {
+     alert('Enter either existing opportunity or new opporutnity');
+     return false;
+     }
+   return true;
+  }
+
+
+    
     var params = {
       name: document.getElementById("name").value,
       email: document.getElementById("email").value,
@@ -28,3 +36,5 @@ function sendMail() {
       .catch(err=>console.log(err));
   
   }
+
+
