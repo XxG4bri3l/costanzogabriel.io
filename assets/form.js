@@ -1,18 +1,4 @@
-function sendMail() {
-{
-  var val = document.getElementById('{!$Component.RenewalForm.configblock.configsecblock.confignewopp.newopp}').value;
-  var oval = document.getElementById('{!$Component.RenewalForm.configblock.configsecblock.configopport.existopp}').value;
-   if ( val == '' && oval == '') {
-    alert('Enter Opportunity Details');
-    return false;
-    }
-    else if ( val != '' && oval != '') {
-     alert('Enter either existing opportunity or new opporutnity');
-     return false;
-     }
-  
-
-
+function sendMail() 
     
     var params = {
       name: document.getElementById("name").value,
@@ -36,7 +22,20 @@ function sendMail() {
   
   }
 
-   return true;
-  }
+function validation(){
+var name = document.getElementById("name").value;
+var email = document.getElementById("email").value;
+var emailReg = /^([w-.]+@([w-]+.)+[w-]{2,4})?$/;
+if( name ==='' || email ===''){
+alert("Please fill all fields...!!!!!!");
+return false;
+}else if(!(email).match(emailReg)){
+alert("Invalid Email...!!!!!!");
+return false;
+}else{
+return true;
+}
+}
 
+  
 
