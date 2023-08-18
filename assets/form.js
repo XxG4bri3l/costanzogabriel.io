@@ -1,4 +1,12 @@
 function sendMail() {
+    {
+     if (sendMail.value.length == 0)
+      { 
+         alert("message");  	
+         return false; 
+      }  	
+      return true; 
+    } 
     var params = {
       name: document.getElementById("name").value,
       email: document.getElementById("email").value,
