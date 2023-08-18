@@ -1,6 +1,4 @@
-
-function sendMail() 
-    
+function sendMail() {
     var params = {
       name: document.getElementById("name").value,
       email: document.getElementById("email").value,
@@ -22,7 +20,6 @@ function sendMail()
       .catch(err=>console.log(err));
   
   }
-
 
 function check(e) {
  // the 2 lines below will stop the default form submit action
