@@ -14,16 +14,7 @@
     <title>Chi sono?</title>
     <link rel="icon" href="assets/favicon/favicon-16x16.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/6ed9dad6e0.js" crossorigin="anonymous"></script>
-   <script src="assets/form.js"></script>
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
-    ></script>
-    <script type="text/javascript">
-      (function () {
-        emailjs.init("LVYgCAd3a6fIZBzIg");
-      })();
-    </script>
+   
  <meta property="og:title" content="Cerchi un graphic designer per i tuoi progetti web o branding? Eccomi" />
 
 <meta property="og:description" content="Fai un salto nel mio sito e scopri tutti i progetti che evertono al User Experience e User interface che progetto grazie a start2impact" />
@@ -105,30 +96,19 @@
        <div class="form-group m-3">
         <form>
         <h6 for="name">Nome</h6>
-        <input
-          type="text"
-          class="form-control shadow p-3 bg-white rounded-3"
-          id="name"
-          placeholder="Inserisci il tuo nome"
-          required
-        />
+<input type="text" name="name" placeholder="Il tuo nome" required>
       </div>
       <div class="form-group m-3 pt-3">
         <h6 for="email">Email</h6>
-        <input
-          type="email" 
-          class="form-control shadow p-3 bg-white rounded-3"
-         
-          id="email"
-          placeholder="Inserisci la tua email"
-          required/>
+      <input type="email" name="email" placeholder="La tua email" required>
       </div>
       <div class="form-group m-3 pt-3">
-        <h5 for="message">Messaggio</h5>
-        <textarea class="form-control shadow p-3 bg-white rounded-3" id="message" rows="6" required></textarea>
+        <h6 for="message">Messaggio</h6>
+       <textarea name="message" rows="10" required placeholder="Cosa vuoi farmi sapere?"></textarea>
+      <input type="hidden" name="_captcha" value="false">
       </div>
       <div class="text-center pt-4">
-    <button class="btn btn-success rounded"  onclick="sendMail()">Invia</button>
+   <button type="submit" class="btn btn-success rounded">Send</button>
     </div>
 </div>
 </form>
