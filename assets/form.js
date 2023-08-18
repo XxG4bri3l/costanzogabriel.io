@@ -10,8 +10,7 @@ function sendMail() {
      alert('Enter either existing opportunity or new opporutnity');
      return false;
      }
-   return true;
-  }
+  
 
 
     
@@ -35,6 +34,9 @@ function sendMail() {
       })
       .catch(err=>console.log(err));
   
+  }
+
+   return true;
   }
 
 
