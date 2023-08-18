@@ -1,17 +1,3 @@
-function check(e) {
- // the 2 lines below will stop the default form submit action
-  e.preventDefault();
-  e.stopPropagation();
-  var date = document.getElementById("email").value;
-  if (!email) {
-    alert("Please fill in all fields");
-    return;
-  }else {
-    sendMail();
-  }
-}
-
-
 
 function sendMail() 
     
@@ -36,6 +22,20 @@ function sendMail()
       .catch(err=>console.log(err));
   
   }
+
+
+function check(e) {
+ // the 2 lines below will stop the default form submit action
+  e.preventDefault();
+  e.stopPropagation();
+  var date = document.getElementById("email").value;
+  if (!email) {
+    alert("Please fill in all fields");
+    return;
+  }else {
+    sendMail();
+  }
+}
 
 
 
