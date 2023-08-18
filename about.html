@@ -103,7 +103,7 @@
         
        <h2>Contattami</h2>
        <div class="form-group m-3">
-        <form action="">
+        <form action="/assets/form.js" method="get" id="form1">
         <h6 for="name">Nome</h6>
         <input
           type="text"
@@ -128,9 +128,7 @@
         <textarea class="form-control shadow p-3 bg-white rounded-3" id="message" rows="6" required></textarea>
       </div>
       <div class="text-center pt-4">
-      <button class="btn btn-success" onclick="sendMail()"
-       data-bs-toggle="modal"
-       data-bs-target="#enroll">Invia</button>
+    <button type="submit" form="form1" value="Submit">Submit</button>
     </div>
 </div>
 </form>
