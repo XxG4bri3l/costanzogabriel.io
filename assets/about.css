@@ -112,13 +112,14 @@ textarea::placeholder{
 .btn-success{
  box-shadow: 0px 3px 10px 3px rgba(0, 0, 0, 0.2);
  border-radius:20px;
- display: flex;
- padding-top:15px;
+ margin-left: auto;
+  margin-right: auto;
+ 
  
 }
 
 .btn-success:hover{
-    box-shadow: 0px 3px 10px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 3px 10px 3px rgba(0, 0, 0, 0.4);
  
 }
 
