@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@200;300;500&display=swap');
+
+body{
+  background-color: #fff;
+}
+
+.navbar{
+  background-color: transparent !important;
+  
+}
+
+.nav-item{
+  font-family: 'Sofia Sans', sans-serif;
+  font-size: 30px;
+  padding-right: 15px;
+}
+
+.navbar-nav .nav-link.active{
+  color: #0A1045 !important;
+}
+
+.nav-link{
+  color: #669CFF;
+
+}
+.nav-link:hover{
+  color: #C8DBFF;
+}
+
+.navbar-toggler {
+  border: none;
+  
+}
+
+h6{
+    color: #2b2b2b;
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+.navbar-nav .active { text-decoration: underline;  text-underline-offset: 10px; }
+
+
+
+
+
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(10, 16, 69, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #0A1045;
+
+}
+
+
+
+
+
+h2{
+    font-family: 'Sofia Sans', sans-serif;
+    font-weight: 400;
+    color: #0A1045;
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 55px;
+        padding-bottom: 15px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 68px;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 34px;
+        line-height: 49,3px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    h2 {
+        font-size: 40px;
+        line-height: 58px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .landing{
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+    }
+}
+
+
+@media (min-width: 768px) {
+    .landing{
+        padding-top: 50px;
+        padding-bottom: 75px;
+    }
+}
+
+
+
+.linea{
+    padding-top: 13%;
+    opacity: 0.35;
+}
+
+@media (min-width: 1200px) {
+    .landing{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
+
+.propic {
+    border:solid 7px;
+    border-color: #0A1045;
+    border-radius: 500px;
+    width: 300px;
+}
+
+.text-left{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #0A1045;
+}
+
+@media (min-width: 1200px) {
+    .text-left{
+          
+          font-size: 46px;
+    }
+}
+
+
+
+@media (min-width: 992px) {
+    .text-left{
+          font-size: 46px;
+    }
+  }
+
+
+@media (max-width: 991px) {
+    .text-left{
+
+    padding-top: 55px;
+          font-size: 48px;
+    }
+  }
+
+
+@media (max-width: 768px) {
+    .text-left{
+          font-size: 36px;
+          padding-top: 2px;
+    }
+  }
+
+
+  @media (min-width: 769px) {
+    .card-img{
+        border: none;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 7px;
+    }
+  }
+
+
+.pb-3{
+    padding-bottom: 14%;
+}
+  
+@media (max-width: 768px) {
+    .card-img{
+        border: none;
+        border-top-right-radius: 7px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-top-left-radius:7px;
+    }
+  }
+
+
+  
+
+  .card-title{
+    color: #0A1045;
+    
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .card-text{
+    color:#0A1045;
+    font-weight: 300;
+    font-family: 'Sofia Sans', sans-serif;
+
+  }
+
+  .info{
+    color:#0A1045;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+  }
+
+
+  @media (min-width: 1200px) {
+    .card-title{
+        padding-top: 25px;
+          font-size: 46px;
+    }
+}
+
+
+
+@media (min-width: 992px) {
+    .card-title{
+          font-size: 36px;
+
+    }
+  }
+
+
+@media (max-width: 991px) {
+    .card-title{
+          font-size: 28px;
+    }
+  }
+
+
+@media (max-width: 768px) {
+    .card-title{
+          font-size: 40px;
+    }
+  }
+
+
+  @media (min-width: 1200px) {
+    .card-text{
+          font-size: 36px;
+    }
+}
+
+
+
+@media (min-width: 992px) {
+    .card-text{
+          font-size: 28px;
+
+    }
+  }
+
+
+@media (max-width: 991px) {
+    .card-text{
+          font-size: 20px;
+    }
+  }
+
+
+@media (max-width: 768px) {
+    .card-text{
+          font-size: 22px;
+    }
+  }
+
+  .card {
+    background: linear-gradient(to left, #fff 50%, #0A1045 50%);
+    background-size: 200%;
+    background-position: right;
+    position: relative;
+    overflow: hidden;
+    border: transparent;
+    border-radius: 7px;
+    background-color: transparent;
+    transition: all 0.35s ease-in-out;
+}
+
+.card:hover {
+    background-position: left;
+    transform: translateY(-15px);
+    box-shadow: 0px 0px 8px rgba(51, 51, 51, 0.18);    
+transition: all 0.35s ease-in-out;
+border: transparent;
+}
+
+
+.card:hover .card-title{
+    color: #fff;
+    transition: all 0.35s ease-in;
+}
+
+.card:hover .card-text{
+    color: #fff;
+    transition: all 0.35s ease-in;
+}
+
+.card:hover .info{
+    color: #fff;
+    transition: all 0.35s ease-in;
+}
+
+#viewproject {
+    color: #fff;
+    text-align: end;
+    justify-content: end;
+    padding-right: 40px;
+    padding-top: 10px;
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 16px;
+}
+
+.card{
+    box-shadow: 0px 0px 7px rgba(51, 51, 51, 0.2);
+    transition: all 0.35s ease-in-out ;
+    border: transparent;
+}
+
+@media (max-width: 1200px) {
+    #viewproject{
+         display: none;
+
+    }
+  }
+
+
+#card4{
+    padding-bottom: 150px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+  @media (max-width: 1199px) {
+    #backtotop{
+         display: none;
+
+    }
+  }
+
+  @media (min-width: 1200px) {
+    #backtotop{
+        position: fixed;
+        bottom: 50px;
+        right: 50px;
+        background-color: #0A1045;
+        color: #fff;
+        padding: 11.5px 18.5px;
+        border-radius: 50px;
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+
+    }
+  }
+
+
+  #backtotop{
+    display: none;
+    
+  }
+
+  
